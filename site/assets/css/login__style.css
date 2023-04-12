@@ -1,0 +1,100 @@
+.container {
+  font-family: 'Poppins', sans-serif;
+  width: 950px;
+  height: 600px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+
+.content__login {
+  padding: 20px 75px 0 50px;
+}
+
+.username,
+.password,
+.email,
+.avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+  width: 360px;
+  height: 35px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0 10px;
+  font-weight: 400;
+}
+
+button {
+  width: 360px;
+  height: 35px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4d8a54;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar,
+.navbar__register {
+  margin-top: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: gray;
+}
+
+.check__remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #4d8a54;
+}
+
+.check__remember label {
+  margin-left: 5px;
+}
+
+.input__checkbox {
+  color: #4d8a54;
+}
+
+.check-member {
+  text-align: center;
+  color: gray;
+
+}
+
+.check-member a {
+  text-decoration: none;
+  color: #4d8a54;
+}
+
+.error {
+  font-size: 10px;
+  color: red;
+}

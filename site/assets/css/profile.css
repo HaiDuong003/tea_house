@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+.main_prf {
+  padding: 50px;
+  color: #1a202c;
+  text-align: left;
+  background-color: #e2e8f0;
+}
+
+label {
+  font-size: 15px;
+}
+
+.card__product--item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__profile--img {
+  width: 175px;
+  height: 160px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.profile__wrap {
+  width: 1080px;
+  height: 355px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 350px 700px;
+  grid-gap: 30px;
+}
+
+.card_profile--left {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.card_profile--content {
+  text-align: center;
+}
+
+.name {
+  font-size: 22px;
+}
+
+.card__profle--role {
+  font-size: 16px;
+}
+
+.card_profile--right {
+  background-color: #fff;
+  padding: 50px 75px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.username {
+  display: grid;
+  grid-template-columns: 100px auto;
+  margin-top: 15px;
+  align-items: center;
+  font-size: 13px;
+}
+
+.username input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  height: 25px;
+  padding-left: 15px;
+}
+
+.username input:focus {
+  outline: none;
+  border-bottom: 1px solid #000;
+}
+
+.form__button {
+  /* margin-top: 100px; */
+  display: flex;
+  position: absolute;
+  bottom: 50px;
+  left: 75px;
+}
+
+.edit__button,
+.cancel__button {
+  width: 50px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.edit__button {
+  background-color: #17A2B8;
+  color: #fff;
+}
+
+.edit__button:hover {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+  transition: all 0.3s linear;
+}
+
+.form__button div:last-child {
+  margin-left: 35px;
+}
+
+.logout__button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  background-color: #e63946;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.logout__button:hover {
+  background-color: #000;
+
+}
